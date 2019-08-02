@@ -1,3 +1,37 @@
 {
-  "streams":[]
+  "streams": [
+    {
+      "title": "test",
+      "description": "testing",
+      "id": 1
+    },
+    {
+      "title": "abc",
+      "description": "abc",
+      "id": 2
+    },
+    {
+      "title": "add a title",
+      "description": "add a description",
+      "id": 3
+    },
+    {
+      "title": "title",
+      "description": "description",
+      "userId": "106216439850100231323",
+      "id": 4
+    },
+    {
+      "title": "push it",
+      "description": "good job",
+      "userId": "106216439850100231323",
+      "id": 5
+    },
+    {
+      "title": "Create form refactor",
+      "description": "refactor successfully",
+      "userId": "106216439850100231323",
+      "id": 6
+    }
+  ]
 }

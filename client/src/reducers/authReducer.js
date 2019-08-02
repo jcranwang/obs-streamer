@@ -1,7 +1,7 @@
 import { SIGN_IN, SIGN_OUT } from "../actions/types";
 
 const defaultAuthStatus = {
-  isSignedIn: false
+  isSignedIn: false,
 };
 
 export default (authStatus = defaultAuthStatus, action) => {
@@ -13,7 +13,7 @@ export default (authStatus = defaultAuthStatus, action) => {
       };
     case SIGN_OUT:
       return {
-        isSignedIn: false
+        isSignedIn: false,
       };
     default:
       return authStatus;
