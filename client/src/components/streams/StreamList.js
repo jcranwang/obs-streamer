@@ -41,7 +41,7 @@ class StreamList extends Component {
           {this.renderEditAndDeleteBtns(stream)}
           <i className="play circle icon big" />
           <div className="content">
-            <div className="header">{stream.title}</div>
+            <Link className="header" to={`/streams/show/${stream.id}`}>{stream.title}</Link>
             <div className="description">{stream.description}</div>
           </div>
         </div>

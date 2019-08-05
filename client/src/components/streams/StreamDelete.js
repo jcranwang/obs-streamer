@@ -6,13 +6,13 @@ import history from "../../history";
 
 class StreamDelete extends Component {
   componentDidMount() {
-    const currentUserId = this.props.match.params.id;
-    this.props.fetchStream(currentUserId);
+    const currentStreamId = this.props.match.params.id;
+    this.props.fetchStream(currentStreamId);
   }
 
   onApprove = () => {
-    const currentUserId = this.props.match.params.id;
-    this.props.deleteStream(currentUserId);
+    const currentStreamId = this.props.match.params.id;
+    this.props.deleteStream(currentStreamId);
   };
 
   onDismiss = () => {
